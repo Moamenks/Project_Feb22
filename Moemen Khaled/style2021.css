@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+    font-size: large; 
+flex-wrap: wrap;}
+    
+  

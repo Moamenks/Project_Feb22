@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {color: white;
+  font-family: Arial;
+  padding: 10px;
+  background: #0c0c0c;
+  font-size: 1rem;
+}
+  
+
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #080808;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #080808;
+  color: rgb(58, 31, 31);
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+.rightcolumn {
+  float: right;
+top: 1em;
+  width: 25%;
+  background-color: #080808;
+  padding-left: 20px;
+}
+
+
+.fakeimg {
+  background-color: #080808;
+    width: 100%;
+  padding: 1px;
+}
+
+
+.card {
+  background-color: #080808;
+  padding: 20px;
+  margin-top: 20px;
+height: fit-content; }
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+img {
+  height: 300px;
+  width: 100%;
+  display: inline;
+  
+}
+
